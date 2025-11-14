@@ -1,0 +1,15 @@
+/* css/style.css */
+
+/*
+   Ini adalah file CSS kustom.
+   Hampir semua gaya diimplementasikan menggunakan Tailwind CSS di index.html.
+   Gunakan file ini jika Anda perlu menambahkan gaya yang tidak didukung oleh utilitas Tailwind
+   atau jika Anda ingin menimpa gaya Tailwind secara spesifik.
+*/
+
+/* Contoh: Animasi untuk tugas yang dihapus */
+.deleting {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
